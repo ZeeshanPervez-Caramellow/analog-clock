@@ -7,7 +7,7 @@ function displayTime(){
 
     // Getting hour, mins, secs from date
     let hh = date.getHours();
-    let mm = date.getMinutes();
+    let mm = date;
     let ss = date.getSeconds();
 
     let hRotation = 30*hh + mm/2;
